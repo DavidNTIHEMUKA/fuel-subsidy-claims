@@ -1,0 +1,14 @@
+[theme]
+base = "light"
+primaryColor = "#0B2B57"
+backgroundColor = "#A9D6F4"
+secondaryBackgroundColor = "#EAF0F7"
+textColor = "#14213D"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "full"      # trial: show the real error message instead of "redacted"
+
+[server]
+maxUploadSize = 500

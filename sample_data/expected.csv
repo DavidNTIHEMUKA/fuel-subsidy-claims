@@ -1,0 +1,27 @@
+row,expect
+1,ACCEPTED (real sample row)
+2,PARTIAL 69 L (EBM 69)
+3,REJECTED duplicate line
+4,ACCEPTED (format repaired)
+5,REJECTED exempt A
+6,REJECTED product mismatch
+7,REJECTED under RURA price
+8,REJECTED refunded
+9,"REVIEW found by date/qty, date mm/dd"
+10,"ACCEPTED (O->0, zeros)"
+11,REVIEW 440 L/day
+12,REVIEW 440 L/day
+13,ACCEPTED
+14,REVIEW refill after 30 min
+15,REJECTED outside period
+16,REJECTED other seller TIN
+17,ACCEPTED (8-digit SDC fixed)
+18,ACCEPTED (SDC typo fixed)
+19,ACCEPTED (oil item ignored)
+20,REJECTED not in EBM
+21,"REJECTED no slip, no match"
+22,REVIEW buyer TIN differs from client usual (R10)
+23,REJECTED invoice already used
+24,REVIEW rate 500 ≠ 438 (Excel date)
+25,"REVIEW Closed at outside interval, EBM inside"
+26,"REJECTED Closed at outside interval, no EBM"
